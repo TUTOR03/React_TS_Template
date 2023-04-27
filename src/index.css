@@ -5,8 +5,8 @@
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   line-height: 24px;
   background-color: #242424;
-  color-scheme: light dark;
   font-synthesis: none;
+  color-scheme: light dark;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,7 +58,6 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     color: #213547;
     background-color: #ffffff;

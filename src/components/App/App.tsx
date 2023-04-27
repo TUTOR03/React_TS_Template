@@ -1,5 +1,6 @@
-import { FC } from 'react'
 import './App.css'
+
+import { FC } from 'react'
 
 type AppProps = {}
 

@@ -1,27 +1,37 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "composite": true,
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "noEmit": true,
+    "strict": true,
+    "allowJs": false,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "noUnusedParameters": true,
+    "useDefineForClassFields": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnreachableCode": false,
+    "rootDir": "./src",
     "baseUrl": ".",
     "types": ["vite/client"],
     "paths": {
-      "components/*": ["./src/components/*"]
-    },
-    "outDir": "dist",
-    "declaration": true
+      "components/*": ["src/components/*"]
+    }
   },
-  "include": ["./src"],
-  "files": ["./src/lib.ts"]
+  "include": ["../vite.config.ts", "src"]
 }
